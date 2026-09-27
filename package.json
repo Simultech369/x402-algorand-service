@@ -1,0 +1,30 @@
+{
+  "name": "x402-algorand-service",
+  "version": "1.0.0",
+  "description": "x402 microservice endpoint on Algorand Mainnet for the Global x402 Challenge",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "build": "tsc --noEmit",
+    "configure:wallet": "tsx scripts/generate_wallet.ts",
+    "payment:probe": "tsx scripts/payment_client.ts",
+    "payment:live": "tsx scripts/payment_client.ts --live",
+    "payer:generate": "tsx scripts/payer_wallet.ts generate",
+    "payer:optin-usdc": "tsx scripts/payer_wallet.ts optin-usdc"
+  },
+  "dependencies": {
+    "@x402/avm": "^2.27.0",
+    "@x402/core": "^2.27.0",
+    "@x402/express": "^2.27.0",
+    "@x402/extensions": "^2.27.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}

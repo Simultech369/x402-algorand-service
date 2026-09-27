@@ -1,0 +1,43 @@
+{
+  "ok": true,
+  "receipt": {
+    "mode": "live",
+    "service_url": "https://untarnished-ricky-nonhierarchically.ngrok-free.dev/api/audit",
+    "payment_status": "payment_required",
+    "challenge_tag": "x402-global-challenge",
+    "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+    "pay_to": "3XFFLNEAJSRDYAFDJQLXV5NFMBHGVXVHHDHPIQZU7EDOD6FRFWPDLU25PM",
+    "amount": "10000",
+    "asset": "31566704",
+    "asa_id": "31566704",
+    "bazaar_extension_declared": true,
+    "final_status": 200,
+    "final_payment_status": "settled",
+    "settlement_header_present": true,
+    "settlement": {
+      "success": true,
+      "payer": "5Z2W6Q427NXJOBEEEXKTNGPXNDNNJXAAGCW772V7I5NI67IV4TVZMXEJUU",
+      "transaction": "VRHCPC467JZ5NXTWQIERMGVF6U6KRXMGJIOFUXPYJG73OF4MGKBQ",
+      "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+      "confirmed_round": 65458070,
+      "asset_id": 31566704,
+      "amount": 10000,
+      "explorer_url": "https://explorer.perawallet.app/tx/VRHCPC467JZ5NXTWQIERMGVF6U6KRXMGJIOFUXPYJG73OF4MGKBQ"
+    },
+    "response_body": {
+      "service": "Council Security Surface",
+      "result": {
+        "score": 100,
+        "passed": true,
+        "totalFindings": 0,
+        "findings": [],
+        "timestamp": "2026-09-27T23:25:48.077Z",
+        "metadata": {
+          "language": "solidity",
+          "linesOfCode": 1
+        }
+      },
+      "paid": true
+    }
+  }
+}
