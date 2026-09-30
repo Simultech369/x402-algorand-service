@@ -72,3 +72,13 @@ npm run payment:probe
 
 ### C. Inspection of Saved Settlement Receipt
 View [`settlement_receipt.json`](./settlement_receipt.json) for the full JSON payload, response body, and on-chain settlement headers.
+
+---
+
+## 5. Electric Capital Open Dev Data Qualification
+
+As required by Step 7 of the official challenge guide:
+- **Taxonomy Pull Request:** [`electric-capital/open-dev-data#3077`](https://github.com/electric-capital/open-dev-data/pull/3077)
+- **Status:** CI Build Passed (`pass`)
+- **Ecosystem Mapping:** `repadd Algorand https://github.com/Simultech369/x402-algorand-service`
+
