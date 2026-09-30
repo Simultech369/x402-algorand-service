@@ -18,6 +18,7 @@ The service is running live, conforms strictly to the x402 V2 protocol specifica
 - **Facilitator:** GoPlausible (`https://facilitator.goplausible.xyz`)
 - **Live Endpoint URL:** `https://untarnished-ricky-nonhierarchically.ngrok-free.dev/api/audit`
 - **Health Check URL:** `https://untarnished-ricky-nonhierarchically.ngrok-free.dev/api/health`
+- **Video Walkthrough (Loom):** [`https://www.loom.com/share/b508140ae8c64ad09b846e9cd74117de`](https://www.loom.com/share/b508140ae8c64ad09b846e9cd74117de)
 
 ---
 
